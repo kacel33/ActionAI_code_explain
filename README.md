@@ -46,3 +46,8 @@ PUBLIC 10등 PRAVITE 14등(상위4%)을 했었습니다.
 pytorch를 이용한 1d-cnn모델을 만들어서 적용하였습니다. 모델을 경량화해서 만들면 frame당 0.01초밖에 소모되지 않아 전체 fps에 거의 영향을 주지 않습니다.
 + tracker.q에 저장되어 있는 관절 데이터
 > 위에서 설명했듯이 ActionAI에서는 각 관절 좌표에서 바운딩 박스 중심을 뺀 뒤 너비 또는 높이로 나눠서 * 2 를 해서 저장합니다. 하지만 이런식으로 저장하게 되면 제자리걷기와 걷는 것을 구분하기 힘들고, 위치 이동 정보가 없습니다. 그래서 저는 1 frame에 총 72개 데이터를 저장했는데 36개는 ActionAI에서 제공하는 것과 동일하게 만들고 나머지 36은 각 관절 좌표를 전체 이미지의 가로 또는 세로로 나눠서 위치 정보가 생기게 하였습니다.
+## 마지막으로 제가 ActionAI를 실행하기 위해서 환경설정 한 방법입니다.
++ https://ddo-code.tistory.com/21
++ https://ddo-code.tistory.com/23
++ https://ddo-code.tistory.com/25
++ https://ddo-code.tistory.com/26
