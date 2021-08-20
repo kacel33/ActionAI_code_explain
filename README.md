@@ -51,3 +51,5 @@ pytorch를 이용한 1d-cnn모델을 만들어서 적용하였습니다. 모델�
 + https://ddo-code.tistory.com/23
 + https://ddo-code.tistory.com/25
 + https://ddo-code.tistory.com/26
+# REFERENCE
++ https://github.com/smellslikeml/ActionAI  모든 코드는 ActionAI에 기반해서 작성하였습니다.
