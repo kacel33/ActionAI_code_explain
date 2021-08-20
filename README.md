@@ -34,8 +34,8 @@ trt_pose 저장소에서 resnet18_baseline_att_224x224_A_epoch_249.pth 모델을
 tensorrt는 다른 버전에서 최적화 한 모델을 사용하지 못하는 듯 합니다.
 + 생각보다 fps가 높지는 않습니다.
 > 저는 jetson nano에서 테스트했습니다.
-RUNSECONDARY를 돌리지 않을 때 동영상에서 한 사람만 있을 때는 fps가 10~13이 나왔지만,
-2명일 때는 fps가 7~9 3명이상일 때는 5이하로 떨어졌습니다.
+RUNSECONDARY를 돌리지 않을 때 동영상에서 한 사람만 있을 때는 fps가 10 to 13이 나왔지만,
+2명일 때는 fps가 7 to 9 3명이상일 때는 5이하로 떨어졌습니다.
 참고로 trt_pose에서 resnet18모델을 이용했을 때 jetson nano에서는 fps가 22정도 나온다고 되어있었는데 저는 16이 최대였었습니다.
 + RUNSECONDARY 모델 참고
 > RUNSECONDARY를 같이 돌릴 때는 fps가 엄청 떨어졌었습니다.
