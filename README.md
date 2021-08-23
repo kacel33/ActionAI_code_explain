@@ -1,5 +1,5 @@
 # ActionAI 코드 설명 및 분석
-
+# https://github.com/smellslikeml/ActionAI
 ## 위 저장소에서 사용한 알고리즘을 정리해 봤습니다.
 
 + iva.py의 알고리즘은 trt_pose를 이용하여 사람의 pose_dict을 얻습니다.
